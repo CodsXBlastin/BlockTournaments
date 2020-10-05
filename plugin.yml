@@ -1,6 +1,8 @@
 name: BlockTournaments
-author: thxc
-description: Block Mining Tournaments
+authors: 
+- THXC
+- Jack Noordhuis
+description: Block Mining Tournaments by Jack / Fixed by THXC
 version: 1.0.0
 api: [3.0.0, 4.0.0]
 main: thxc\MainClass
