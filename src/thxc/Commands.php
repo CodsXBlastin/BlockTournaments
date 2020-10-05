@@ -1,6 +1,6 @@
 <?php
 
-namespace Kingbobs;
+namespace thxc;
 
 use AddNoteBlock\block\NoteBlock;
 use pocketmine\command\Command;
