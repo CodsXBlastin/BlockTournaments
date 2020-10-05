@@ -4,12 +4,12 @@ namespace thxc;
 
 use AddNoteBlock\block\NoteBlock;
 use pocketmine\command\Command;
-use pocketmine\command\PluginCommand;
+use pocketmine\command\CommandExecutor;
 use pocketmine\command\CommandSender;
 use pocketmine\item\Item;
 use pocketmine\utils\TextFormat;
 
-class Commands implements PluginCommand{
+class Commands implements CommandExecutor{
 
 	public $plugin;
 
