@@ -4,12 +4,12 @@ namespace thxc;
 
 use AddNoteBlock\block\NoteBlock;
 use pocketmine\command\Command;
-use pocketmine\command\CommandExecutor;
+use pocketmine\command\PluginCommand;
 use pocketmine\command\CommandSender;
 use pocketmine\item\Item;
 use pocketmine\utils\TextFormat;
 
-class Commands implements CommandExecutor{
+class Commands implements PluginCommand{
 
 	public $plugin;
 
@@ -18,7 +18,7 @@ class Commands implements CommandExecutor{
 		$plugin->getCommand("bt")->setExecutor($this);
 	}
 
-	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+	public function execute/**onCommand*/(CommandSender $sender, Command $cmd, $label, array $args){
 		$smcmd = strtolower($cmd);
 		$economy = $this->plugin->getServer()->getPluginManager()->getPlugin("EconomyAPI")->getInstance();
 		switch($smcmd){
