@@ -1,7 +1,7 @@
 name: BlockTournaments
-author: Kingbobs
+author: thxc
 description: Block Mining Tournaments
 version: 1.0.0
 api: [3.0.0, 4.0.0]
-main: Kingbobs\MainClass
+main: thxc\MainClass
 ...
