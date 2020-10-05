@@ -1,6 +1,6 @@
 <?php
 
-namespace Kingbobs;
+namespace thxc;
 
 use pocketmine\item\Item;
 use pocketmine\scheduler\PluginTask;
