@@ -1,6 +1,6 @@
 <?php
 
-namespace Kingbobs;
+namespace thxc;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
