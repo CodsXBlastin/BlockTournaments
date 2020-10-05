@@ -1,6 +1,6 @@
 <?php
 
-namespace Kingbobs;
+namespace thxc;
 
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\Listener;
