@@ -1,5 +1,7 @@
 <?php
 
+# getting poggit to declare issues
+
 namespace thxc;
 
 use pocketmine\plugin\PluginBase;
