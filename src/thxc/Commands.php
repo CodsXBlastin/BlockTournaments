@@ -6,10 +6,11 @@ use AddNoteBlock\block\NoteBlock;
 use pocketmine\command\Command;
 use pocketmine\command\CommandExecutor;
 use pocketmine\command\CommandSender;
+use pocketmine\command\PluginCommand;
 use pocketmine\item\Item;
 use pocketmine\utils\TextFormat;
 
-class Commands implements CommandExecutor{
+class Commands extends PluginCommand implements CommandExecutor{
 
 	public $plugin;
 
