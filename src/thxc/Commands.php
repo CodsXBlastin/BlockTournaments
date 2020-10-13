@@ -15,13 +15,14 @@ class Commands implements CommandExecutor{
 
 	public function __construct(MainClass $plugin){
 		$this->plugin = $plugin;
-		$plugin->getCommand("bt")->setExecutor($this);
+		//$plugin->getCommand("bt")->setExecutor($this);
 	}
 
-	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) : bool{
-		$smcmd = strtolower($cmd);
+	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+		//$smcmd = strtolower($cmd);
 		$economy = $this->plugin->getServer()->getPluginManager()->getPlugin("EconomyAPI")->getInstance();
-		switch($smcmd){
+		//switch($smcmd){
+			switch(strtolower($cmd->getName())){
 			case "bt":
 				if(!isset($args[2])){
 					$sender->sendMessage($this->plugin->formatMsg("Usage: /bt start <time> <prize money>", false));
